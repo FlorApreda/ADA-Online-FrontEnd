@@ -1,0 +1,51 @@
+body {
+	height: 100%;
+	margin: 0;
+	font-family: monospace;
+	background: #3949ab;
+	font-size: 20px;
+	position: relative;
+}
+
+.fas.fa-bars {
+	color: #b39ddb;
+	font-size: 46px;
+	cursor: pointer;
+	margin-top: 16px;
+	padding-left: 16px;
+}
+
+.fas.fa-times {
+	cursor: pointer;
+	color: #3949ab;
+	font-size: 46px;
+	margin-left: 320px;
+}
+
+.fas.fa-heart {
+	color: #3949ab;
+	font-size: 26px;
+}
+
+#sidebar-open {
+	position: fixed;
+	width: 400px;
+	background: #b39ddb;
+	top: 0;
+	left: -400px;
+	height: 100vh;
+	transition: left 0.3s linear;
+}
+
+#sidebar-open a {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 16px;
+	display: block;
+	margin-top: 16px;
+}
+
+#sidebar-open:target {
+	left: 0;
+}

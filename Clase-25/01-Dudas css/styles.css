@@ -1,0 +1,45 @@
+#xadre #hije {
+	/* el espacio significa 'hije de'. De atras para adelante se lee, hije es hije de xadre. Cualquiera que este dentro */
+	background-color: cornflowerblue;
+}
+
+#separado-1,
+#separado-2 {
+	background-color: darkblue;
+	padding: 10px;
+
+	/* Estoy seleccionando dos elementos distintos.
+  La coma separa dos selectores distintos.
+  Es para repetir estilos en varios elementos al mismo tinempo sin ninguna relaci[on entre ellos. 
+  */
+}
+
+#hermane-1 ~ .hermane {
+	background-color: dodgerblue;
+	border: 1px solid rgb(119, 119, 119);
+	padding: 10px;
+}
+
+#hermane-1 ~ #hermane-3 {
+	color: white;
+	font-weight: bold;
+}
+
+/* El + es el hermane siguiente, y solo ese. aca trae #hermane-3*/
+#hermane-2 + .hermane {
+	text-decoration: underline;
+}
+
+/*Este no va a funcionar porque #hermane-4 NO es hermne siguiente de #hermane-2 */
+#hermane-2 + #hermane-4 {
+	background-color: mediumpurple;
+}
+
+/* Contextos en los que usar + */
+#input:checked + .elemento-que-va-a-hacer-alguna-magia {
+	/* Insertar magia aca */
+	display: block;
+}
+.elemento-que-va-a-hacer-alguna-magia {
+	display: none;
+}

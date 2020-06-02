@@ -1,0 +1,36 @@
+body {
+	background-image: url(img/wood-2045379_1920.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	font-family: 'Cedarville Cursive';
+}
+
+.polaroid {
+	width: 800px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+figure,
+figcaption {
+	background-color: white;
+	display: flex;
+	padding: 15px;
+	box-shadow: 1px 1px 3px #333333;
+	margin: 0;
+}
+
+figure {
+	width: 250px;
+	height: 300px;
+}
+
+figcaption {
+	width: 250px;
+	height: 30px;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}

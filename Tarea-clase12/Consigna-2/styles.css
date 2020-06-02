@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica,
+		Arial, sans-serif;
+	font-size: 16px;
+	background-color: rgb(138, 208, 255);
+}
+
+.card {
+	box-shadow: 0 0 3px rgb(179, 179, 179);
+	border-radius: 12px;
+	overflow: hidden;
+	height: 600px;
+	background-color: white;
+	width: 35vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+	padding: ;
+}
+
+img {
+	max-width: 100%;
+	border-radius: 12px;
+	text-align: center;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.rayita {
+	width: 80%;
+}
+
+.todos-cuadraditos {
+	display: flex;
+}
+
+.cuadradito {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	background-color: lightslategray;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	margin: 5px;
+	text-align: center;
+}
+
+footer {
+	display: flex;
+	justify-content: flex-start;
+}

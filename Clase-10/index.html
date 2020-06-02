@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<!--Method puede tomar dos valores: GET y POST-->
+		<!--GET y POST define si voy a mandar info o voy a pedir info-->
+		<!--El GET sirve para traer info. El POST sirve para mandar la info a la API-->
+
+		<form action="https://google.com" method="GET">
+			<!--COMO USAR UN GET Y MANDAR INFO-->
+			<input type="text" name="mi-text" />
+			<!--El input es el tipo mas basico de entrada de datos-->
+			<!--levanta todo desde el buton, todo lo q tenga en el input
+        cuando le pongo "q" me lo busca en el buscador de google
+        -->
+			<label>
+				Query:
+				<input
+					type="text"
+					name="q"
+					placeholder="How to program..."
+					maxlength="10"
+				/>
+			</label>
+
+			<label>Edad:</label>
+			<input max="10" type="number" name="edad" placeholder="25" />
+			<div>
+				<label>Email</label>
+				<input type="email" name="email" />
+			</div>
+
+			<div>
+				<label>Date</label>
+				<input type="date" name="date" />
+			</div>
+
+			<div>
+				<label>File</label>
+				<input type="file" name="file" />
+			</div>
+
+			<div>
+				<label>2 ambientes</label>
+				<input type="checkbox" name="2amb" value="2amb" />
+			</div>
+
+			<div>
+				<label>3 ambientes</label>
+				<input type="checkbox" name="3amb" value="3amb" />
+			</div>
+
+			<div>
+				<label>Jardín</label>
+				<input type="checkbox" name="jardin" value="jardin" />
+			</div>
+
+			<div>
+				<label>1</label>
+				<input type="radio" name="numeroquequiero" value="1" />
+			</div>
+
+			<div>
+				<label>2</label>
+				<input type="radio" name="numeroquequiero" value="2" />
+			</div>
+
+			<div>
+				<label>3</label>
+				<input type="radio" name="numeroquequiero" value="3" />
+			</div>
+
+			<!--El button llama a la accion con el metodo que le asigné-->
+			<button type="submit">Mi botón</button>
+		</form>
+	</body>
+</html>
+<!--QUERY PARAMETERS-->

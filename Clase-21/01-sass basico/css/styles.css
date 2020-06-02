@@ -1,0 +1,12 @@
+.div {
+  border: 1px solid #333;
+  height: 100px; }
+  .div.padre {
+    background: #283593; }
+  .div.tio {
+    background: #4db6ac; }
+
+.divcito {
+  border: 1px dotted #333;
+  height: 50px;
+  background-color: #9575cd; }

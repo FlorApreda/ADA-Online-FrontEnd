@@ -1,0 +1,17 @@
+/*Breackpoint de mobile 1 */
+@media (min-width: 320px) {
+}
+
+/*Breackpoint de mobile 2 */
+@media (min-width: 414px) {
+}
+
+/*Breackpoint de tablet */
+@media (min-width: 768px) {
+	.texto-generico {
+	}
+}
+
+/*Breackpoint de desktop/tablet */
+@media (min-width: 955px) {
+}

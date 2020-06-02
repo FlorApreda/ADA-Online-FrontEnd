@@ -1,0 +1,19 @@
+@import '../abstract/variables';
+
+.main-header {
+	.maintitulo {
+		font-family: $title-font;
+		font-size: $font-xl;
+		font-weight: 600;
+	}
+
+	.main-nav {
+		a {
+			border-bottom: 1px solid $primary-color;
+			display: inline-block;
+			padding: $padding-s;
+			margin-right: $margin-s;
+			text-decoration: none;
+		}
+	}
+}

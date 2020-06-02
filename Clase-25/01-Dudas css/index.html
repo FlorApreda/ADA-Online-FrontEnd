@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dudas Css</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<div id="xadre-hije">
+			<div id="xadre">
+				Xadre
+				<div id="hije">Hije</div>
+			</div>
+			<!--Este esta afuera del contenedor #xadre, entonces no toma los estilos-->
+			<div id="hije">Hije- clon</div>
+			<!--Tener dos veces el mismo id no es correcto pero se puede-->
+		</div>
+
+		<div id="divs-distintos">
+			<div id="separado-1">Separado 1</div>
+			<div id="neutro">
+				<div id="separado-2">Separado 2</div>
+			</div>
+			<div id="separado-2">Separado 2- clon</div>
+		</div>
+
+		<div id="hermanes">
+			<div id="hermane-1">Hermane 1</div>
+			<div id="hermane-2">Hermane 2</div>
+			<div id="hermane-3">Hermane 3</div>
+			<div id="hermane-4">Hermane 4</div>
+		</div>
+	</body>
+</html>

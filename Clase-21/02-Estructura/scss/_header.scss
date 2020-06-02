@@ -1,0 +1,14 @@
+@import './variables';
+
+.main-header {
+	display: flex;
+	height: 75px;
+	padding: $padding-l;
+	box-sizing: $box-sizing;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 1px 3px $main-color;
+	a {
+		color: $main-color;
+	}
+}

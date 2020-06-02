@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form Login</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="card">
+				<div class="card-image">
+					<img
+						src="https://assets-ouch.icons8.com/preview/809/b132c8e3-b3cd-4c55-9efe-5495d998bb38.png"
+						alt=""
+						class="card-img"
+					/>
+				</div>
+
+				<div class="card-content">
+					<h1>Hola!</h1>
+					<p>Te estábamos esperando</p>
+					<form action="registrar-usuario" method="get">
+						<label class="label">Email</label>
+						<input
+							type="email"
+							name="email"
+							placeholder="ejemplo@dominio.com"
+							required
+						/>
+						<label class="label">Contraseña</label>
+						<input
+							type="password"
+							name="password"
+							placeholder="Ingresa tu contraseña"
+							maxlength="16"
+							required
+						/>
+						<button class="boton">Ingresar</button>
+						<small>No tienes una cuenta? <a href="#">Regístrate!</a></small>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

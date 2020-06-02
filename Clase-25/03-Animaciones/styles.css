@@ -1,0 +1,41 @@
+#cuadradito {
+	height: 100px;
+	left: 0;
+	position: fixed;
+	background-color: crimson;
+	top: 0;
+	width: 100px;
+}
+
+#cuadradito:target {
+	/* Animation */
+	animation-name: cuadradit-move;
+	animation-duration: 15s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+#mover {
+	right: 20px;
+	position: fixed;
+	top: 20px;
+}
+
+@keyframes cuadradit-move {
+	0% {
+		left: 0;
+		top: 0;
+	}
+	25% {
+		left: calc (100vw - 100px);
+		top: 0;
+	}
+	50% {
+		left: 0;
+		top: calc (100vh - 100px);
+	}
+	75% {
+		left: calc (100vw - 100px);
+		top: calc (100vh - 100px);
+	}
+}

@@ -1,0 +1,18 @@
+$border-color: #333;
+
+.div {
+	border: 1px solid $border-color;
+	height: 100px;
+	&.padre {
+		background: #283593;
+	}
+	&.tio {
+		background: #4db6ac;
+	}
+}
+
+.divcito {
+	border: 1px dotted $border-color;
+	height: 50px;
+	background-color: #9575cd;
+}

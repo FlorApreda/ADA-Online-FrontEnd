@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.card {
+	width: 100%;
+	overflow: hidden;
+	border-radius: 16px;
+}
+
+.card figure {
+	height: 300px;
+	overflow: hidden;
+	margin: 0;
+	width: 100%;
+}
+
+.card header figure img {
+	width: 100%;
+}
+
+.card header {
+	text-align: center;
+}
+
+.card article {
+	padding: 15px;
+}
+
+/* No Mobile First*/
+
+@media (min-width: 399px) and (max-width: 549px) {
+	.card figure {
+		height: 550px;
+	}
+}
+
+/*Mobile First*/
+
+@media (min-width: 550px) {
+	.card figure {
+		height: 700px;
+  }
+  .card header {
+    font-size: 28px;
+    color: red;
+  }
+}
+
+@media (min-width: 700px) {
+  
+  .card {
+    width: 250px;
+  }
+  .card figure {
+    height: 300px;
+  }
+}

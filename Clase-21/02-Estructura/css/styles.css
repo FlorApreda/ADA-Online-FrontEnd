@@ -1,0 +1,33 @@
+.main-header {
+  display: flex;
+  height: 75px;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px #fafafa; }
+  .main-header a {
+    color: #fafafa; }
+
+#Hero {
+  background: #551313;
+  height: calc(100vh - 75px);
+  position: relative; }
+  #Hero .button-link {
+    border-radius: 5px;
+    background-color: lightslategray;
+    box-shadow: 0 0 3px #333;
+    padding: 10px;
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 19px;
+    position: absolute;
+    bottom: 15px;
+    border: 0;
+    left: 15px; }
+    #Hero .button-link:focus {
+      box-shadow: 0 0 3px inset #333; }
+
+body {
+  background: #333;
+  margin: 0; }
