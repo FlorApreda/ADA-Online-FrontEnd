@@ -27,3 +27,21 @@
  *  - Utilizar nombres de variables y funciones representativas
  *
  ************************************************/
+
+// lista= [[Pato, 36, email@algo], [Viki, 29, nomejodan@conelemail], [Flor, 27, otroemail@otro], [Johana, 23, yabasta@ya]]
+
+//lista [0][1] === 'capx'
+
+// const myFunc = frase =>
+
+const listado = []
+
+const guardarPersona = (datos) => {
+	const persona = prompt(
+		'Ingrese su nombre, edad y email separados por comas'
+	).split(',')
+	listado.push(persona)
+}
+
+guardarPersona()
+console.log(listado)
