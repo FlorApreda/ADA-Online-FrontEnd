@@ -1,0 +1,13 @@
+//Objetos 002
+/*Crear un documento con el nombre obj_002.js
+Crear una variable llamada sobreMi, a la que le vamos a asignar un objeto.
+El objeto tiene que tener 3 propiedades: nombre, apellido, edad
+Mostrar en consola el objeto sobreMi */
+
+let sobreMi = {
+	nombre: 'Florencia',
+	apellido: 'Apreda',
+	edad: '27',
+}
+
+console.log(sobreMi)

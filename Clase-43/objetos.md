@@ -104,7 +104,7 @@ console.log(persona.dni) // 90909090
 
 #### Prácticas
 
-[Ejercicio 001](./ejercicios/obj_001.md)
+[Ejercicio 001](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/objetos/ejercicios/obj_001.md)
 [Ejercicio 002](./ejercicios/obj_002.md)
 [Ejercicio 003](./ejercicios/obj_003.md)
 [Ejercicio 004](./ejercicios/obj_004.md)
