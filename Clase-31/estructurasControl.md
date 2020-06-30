@@ -52,7 +52,7 @@ if (nombre === 'Miriam') {
 
 [Ejercicio 58](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej58.md)
 [Ejercicio 59](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej59.md)
-[Ejercicio 60](./ejercicios/ej60.md)
+[Ejercicio 60](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej60.md)
 
 - Utilizar muchos if's anidados no es una buena práctica
 

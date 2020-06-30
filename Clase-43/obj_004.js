@@ -18,3 +18,17 @@ var cancion = {
 
 
 console.log(cancion); // { titulo: 'Rock and Roll', banda: 'Led Zeppelin', duracion: 166 } */
+
+const song = {
+	title: 'Rock and Roll',
+	bandName: 'Led Zeppelin',
+	duration: 166000,
+	album: 'Led Zeppelin IV',
+}
+
+const cancion = {
+	title: 'Rock and Roll',
+	bandName: 'Led Zeppelin',
+	duration: 166000, //dividir esto
+	album: 'Led Zeppelin IV',
+}

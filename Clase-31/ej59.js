@@ -10,3 +10,14 @@ Si No
 Mostrar el siguiente mensaje en consola: La variable numero2 es más grande que numero1
 Cambiar el valor de la variable hora un par de veces y ejecutarlo para ver que pasa
 Probar cambiar los mensajes utilizando los valores reales de cada variable*/
+
+let numero1 = 8
+let numero2 = 16
+
+if (numero1 === numero2) {
+	console.log('Los dos números son iguales.')
+} else if (numero1 > numero2) {
+	console.log('La variable numero1 es más grande que numero2.')
+} else {
+	console.log('La variable numero2 es más grande que numero1.')
+}

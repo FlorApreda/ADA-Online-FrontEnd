@@ -13,6 +13,4 @@ let user = {
 }
 
 console.log(user)
-console.log('Hola, mi nombre es ${user.fullname} y tengo ${user.edad} años')
-
-//me tira undifined
+console.log(`Hola, mi nombre es ${user.fullname} y tengo ${user.age} años`)
