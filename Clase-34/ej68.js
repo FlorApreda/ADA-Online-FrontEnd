@@ -4,7 +4,9 @@ Mostrar en consola los números pares del 0 al 1000 utilizando la estructura whi
 
 let numero = 0
 
-while (numero <= 1000 && numero % 2 === 0) {
-	console.log(numero)
+while (numero <= 1000) {
+	if (numero % 2 === 0) {
+		console.log(numero)
+	}
 	numero++
 }

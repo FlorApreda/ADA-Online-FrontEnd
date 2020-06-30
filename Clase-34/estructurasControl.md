@@ -258,13 +258,13 @@ while (numero < 10) {
 [Ejercicio 66](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej66.md)
 [Ejercicio 67](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej67.md)
 [Ejercicio 68](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej68.md)
-[Ejercicio 69](./ejercicios/ej69.md)
-[Ejercicio 70](./ejercicios/ej70.md)
-[Ejercicio 71](./ejercicios/ej71.md)
-[Ejercicio 72](./ejercicios/ej72.md)
-[Ejercicio 73](./ejercicios/ej73.md)
-[Ejercicio 74](./ejercicios/ej74.md)
-[Ejercicio 75](./ejercicios/ej75.md) (avanzado)
+[Ejercicio 69](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej69.md)
+[Ejercicio 70](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej70.md)
+[Ejercicio 71](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej71.md)
+[Ejercicio 72](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej72.md)
+[Ejercicio 73](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej73.md)
+[Ejercicio 74](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej74.md)
+[Ejercicio 75](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej75.md) (avanzado)
 
 ### do/while
 
