@@ -125,9 +125,11 @@ console.log(mensaje)
 
 #### Prácticas
 
-[Ejercicio 61](./ejercicios/ej61.md)
-[Ejercicio 62](./ejercicios/ej62.md)
-[Ejercicio 63](./ejercicios/ej63.md)
+[Ejercicio 61](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej61.md)
+[Ejercicio 62](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej62.md)
+[Ejercicio 63](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej63.md)
+
+- (el ejercicio 63 no existe)
 
 ## Truthy and Falsy (valores verdaderos y falsos)
 
@@ -180,8 +182,8 @@ if (nombre) {
 
 #### Prácticas
 
-[Ejercicio 64](./ejercicios/ej64.md)
-[Ejercicio 65](./ejercicios/ej65.md)
+[Ejercicio 64](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej64.md)
+[Ejercicio 65](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/estructurasControl/ejercicios/ej65.md)
 
 #### Estructuras de repetición
 
