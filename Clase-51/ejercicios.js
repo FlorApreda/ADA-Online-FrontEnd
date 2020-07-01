@@ -14,22 +14,12 @@
  * función. Recordar tirar errores y testearlos.
  */
 
-const minutosASegundos = (number) => {
-	if (typeof number !== 'number') throw new Error('no es un Number')
-	return number * 60
-}
-
-test('convierte minutos a segundos', () => {
-	expect(minutosASegundos(1)).toBe(60)
-})
-
-test('convierte minutos a segundos', () => {
-	expect(minutosASegundos(2)).toBe(120)
-})
-
-test('tira error si esta mal convertido', () => {
-	expect(() => minutosASegundos('1')).toThrow('No es un Number') //funciona con una funcion a ejecutar
-})
+/**
+ * Una funcion que reciba o un numero o un string
+ * correspondiente a un mes, y devuelva el opuesto.
+ * (Si recibe 12, devuelve Diciembre, si recibe Diciembre, devuelve 12).
+ * Comenzar por los tests, recordar tirar errores y testearlos.
+ */
 
 /**************************************************
  * Hacer una serie de funciones para un TODO list.

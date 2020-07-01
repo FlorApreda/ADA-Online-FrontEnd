@@ -7,6 +7,7 @@ let i = 0
 
 while (numero <= 1000) {
 	i = i + numero
+	console.log(i)
 	numero++
 }
 
