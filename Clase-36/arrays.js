@@ -43,5 +43,3 @@ usuarios.push("fedetest4@test.test.test.no");
 usuarios
 //(4) ["fede@fede.no", "fede.m.fede@gmail.com", "fede7@test.com", "fedetest4@test.test.test.no"]0: "fede@fede.no"1: "fede.m.fede@gmail.com"2: "fede7@test.com"3: "fedetest4@test.test.test.no"length: 4__proto__: Array(0)
 usuarios = "fede"
-VM3423:1 Uncaught TypeError: Assignment to constant variable.
-at <anonymous>:1:10

@@ -364,12 +364,12 @@ console.log(react) // react
 
 #### Prácticas
 
-[Ejercicio 011](./ejercicios/arr_011.md)
-[Ejercicio 012](./ejercicios/arr_012.md)
-[Ejercicio 013](./ejercicios/arr_013.md)
-[Ejercicio 014](./ejercicios/arr_014.md)
-[Ejercicio 015](./ejercicios/arr_015.md)
-[Ejercicio 016](./ejercicios/arr_016.md)
+[Ejercicio 011](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/arrays/ejercicios/arr_011.md)
+[Ejercicio 012](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/arrays/ejercicios/arr_012.md)
+[Ejercicio 013](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/arrays/ejercicios/arr_013.md)
+[Ejercicio 014](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/arrays/ejercicios/arr_014.md)
+[Ejercicio 015](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/arrays/ejercicios/arr_015.md)
+[Ejercicio 016](https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/arrays/ejercicios/arr_016.md)
 
 ### Sort y reverse
 

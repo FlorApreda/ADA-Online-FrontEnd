@@ -1,0 +1,30 @@
+//Ejercicio Array 007
+/* Crear un documento con el nombre arr_007.js
+Crear un array con el nombre peliculas y asignar los siguientes elementos
+Superman
+Batman Begins
+The Dark Knight
+Man of Steel
+The Dark Knight Rises
+The Batman
+Declarar un nuevo array peliculasBatman y asginar sólo las peliculas que deberían estar en la lista de peliculasBatman
+Mostrar en consola las dos listas con todas las peliculas y las que tiene solo las de Batman
+Resultado esperado:
+Todas las películas: ["Superman", "Batman Begins", "The Dark Knight", "Man of Steel", "The Dark Knight Rises", "The Batman"]
+Solo las películas de Batman: ["Batman Begins", "The Dark Knight", "The Dark Knight Rises", "The Batman"]
+
+*/
+
+let peliculas = [
+	'Superman',
+	'Batman Begins',
+	'The Dark Knight',
+	'Man of Steel',
+	'The Dark Knight Rises',
+	'The Batman',
+]
+
+let peliculasBatman = [peliculas[1], peliculas[2], peliculas[4], peliculas[5]]
+
+console.log(peliculas)
+console.log(peliculasBatman)

@@ -21,3 +21,24 @@ El resultado debería ser:
 ["Smells Like Teen Spirit", "In Bloom", "Come As You Are", "Breed", "Lithium", 
 "Polly", "Territorial Pissings", "Drain You", "Lounge Act", "Stay Away", "On a Plain", "Something in the Way"]
 */
+
+let discoNevermind = [
+	'Smells Like Teen Spirit',
+	'In Bloom',
+	'Come As You Are',
+	'Immodium',
+	'Lithium',
+	'Polly',
+	'Territorial Pissings',
+	'Drain You',
+	'Lounge Act',
+	'Pay To Play',
+	'On a Plain',
+	'Endless, Nameless',
+]
+
+discoNevermind[3] = 'Breed'
+discoNevermind[9] = 'Stay Away'
+discoNevermind[11] = 'Something in the Way'
+
+console.log(discoNevermind)
