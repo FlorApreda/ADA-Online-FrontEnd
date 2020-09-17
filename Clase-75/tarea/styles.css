@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+}
+
+#main-header {
+	height: 75px;
+	box-shadow: 0 0 5px #333333;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #3f51b5;
+}
+
+.nav-link {
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: #9575cd;
+	color: white;
+	text-decoration: none;
+}
+
+.is-active {
+	background-color: #f48fb1;
+}
+
+#sct-random {
+	padding: 25px;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+figure {
+	box-shadow: 0 0 3px #333333;
+	padding: 5px;
+	max-width: 80%;
+}
+
+img {
+	max-width: 100%;
+}
